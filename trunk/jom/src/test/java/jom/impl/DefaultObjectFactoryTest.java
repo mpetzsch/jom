@@ -14,24 +14,37 @@ import org.junit.Test;
 
 /**
  * @author MPETZSCH
- *
+ * 
  */
 public class DefaultObjectFactoryTest
 {
-	
+
 	private ObjectFactory objectFactory = new DefaultObjectFactory();
 
 	/**
-	 * Test method for {@link jom.impl.DefaultObjectFactory#getInstance(java.lang.Class)}.
+	 * Test method for
+	 * {@link jom.impl.DefaultObjectFactory#getInstance(java.lang.Class)}.
 	 */
 	@Test
 	public void testGetInstance()
 	{
-		try 
+		try
 		{
-			DefaultObjectFactory of = objectFactory.getInstance(DefaultObjectFactory.class);
+			DefaultObjectFactory of = objectFactory
+					.getInstance(DefaultObjectFactory.class);
 			assertNotNull(of);
-		} catch (InstanceCreationException ice) {
+
+			try
+			{
+				Collection iff = objectFactory.getInstance(Collection.class);
+				fail("Creation of instance of interface should fail");
+			} catch (InstanceCreationException ice)
+			{
+
+			}
+
+		} catch (InstanceCreationException ice)
+		{
 			fail(ice.toString());
 		}
 	}
