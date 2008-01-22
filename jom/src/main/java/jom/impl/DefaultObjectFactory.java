@@ -12,13 +12,6 @@ import jom.exceptions.InstanceCreationException;
  */
 public class DefaultObjectFactory implements ObjectFactory
 {
-
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see jom.ObjectFactory#getInstance(java.lang.Class)
-	 */
-	@Override
 	public Object getInstance(Class<?> clazz) throws InstanceCreationException
 	{
 		try
