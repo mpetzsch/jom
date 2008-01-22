@@ -20,6 +20,9 @@ public class DefaultObjectFactory implements ObjectFactory
 			{
 				throw new InstanceCreationException("[ObjectFactory: "
 						+ getClass() + "] Passed null class for creation");
+			} else if (clazz.isInterface()) {
+				throw new InstanceCreationException("[ObjectFactory: "
+						+ getClass() + "] Passed class is an interface - not supported yet");
 			} else
 			{
 				return clazz.newInstance();
