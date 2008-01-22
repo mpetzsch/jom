@@ -8,11 +8,6 @@
 	<name>${project.artifactId}</name>
 
 	<build>
-		<finalName>${artifactId}-${version}</finalName>
-		<outputDirectory>
-			./target/${project.artifactId}
-		</outputDirectory>
-		<directory>./${project.artifactId}</directory>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

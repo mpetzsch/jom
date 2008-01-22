@@ -12,7 +12,7 @@ import jom.exceptions.InstanceCreationException;
  */
 public class DefaultObjectFactory implements ObjectFactory
 {
-	public Object getInstance(Class<?> clazz) throws InstanceCreationException
+	public <T> T getInstance(Class<T> clazz) throws InstanceCreationException
 	{
 		try
 		{
