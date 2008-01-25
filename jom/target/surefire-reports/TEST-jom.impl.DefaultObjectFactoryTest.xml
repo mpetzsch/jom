@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.047" errors="0" skipped="0" tests="1" name="jom.impl.DefaultObjectFactoryTest">
+<testsuite failures="0" time="0.078" errors="0" skipped="0" tests="1" name="jom.impl.DefaultObjectFactoryTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_04\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows XP"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_04\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.6.0_04\jre\bin;C:\Program Files\Java\jre1.6.0_04\bin\client;C:\Program Files\Java\jre1.6.0_04\bin;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\IBM\Installation Manager\eclipse\lib;C:\Program Files\Common Files\Roxio Shared\9.0\DLLShared\;C:\Program Files\QuickTime\QTSystem\;;C:\mpetzsch\apache-ant-1.7.0\bin;C:\Program Files\Java\jdk1.5.0_11;C:\mpetzsch\maven-2.0.7\bin;C:\Python25;C:\Program Files\Groovy\bin;c:\Program Files\Java\jdk1.6.0_03\;C:\mpetzsch\apache-maven-2.0.8\bin"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_04\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.6.0_04\jre\bin;C:\Program Files\Java\jre1.6.0_04\bin\client;C:\Program Files\Java\jre1.6.0_04\bin;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\IBM\Installation Manager\eclipse\lib;C:\Program Files\Common Files\Roxio Shared\9.0\DLLShared\;C:\Program Files\QuickTime\QTSystem\;;C:\mpetzsch\apache-ant-1.7.0\bin;C:\mpetzsch\maven-2.0.7\bin;C:\Python25;C:\Program Files\Groovy\bin;c:\Program Files\Java\jdk1.6.0_04\bin\;C:\mpetzsch\apache-maven-2.0.8\bin"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="50.0"/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
@@ -57,5 +57,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase time="0.015" name="testGetInstance"/>
+  <testcase time="0.016" name="testGetInstance"/>
 </testsuite>
